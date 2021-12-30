@@ -5,6 +5,8 @@ from app.e_mail import send_email
 
 API_LINK = os.environ.get('API_LINK')
 API_KEY = os.environ.get('API_KEY')
+API_LINK = 'https://api.themoviedb.org/3'
+API_KEY = 'af9723a178712cff3229d2d2535483aa'
 
 #  account wymaga api_key i session_id, do utworzenia sessji potrzeba request_token i na jego podstawie dostajemy session_id
 API_URLS = {
