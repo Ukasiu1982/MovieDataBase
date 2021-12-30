@@ -9,6 +9,7 @@ from flask_login import LoginManager, login_user, login_required, logout_user
 
 app = Flask(__name__)
 app.secret_key = os.environ.get('APP_SECRET_KEY')
+app.secret_key = 'super_secret_key'
 
 login_manager = LoginManager()
 login_manager.init_app(app)
